@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.top-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.image-detail {
+  width: 100%;
+  border-radius: 10px;
+}
+.heading {
+  color: #616e7c;
+}
+.description {
+  font-size: 15px;
+  color: #cbced2;
+}
+.rating-con {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 0px;
+  border-radius: 10px;
+}
+.rating-review-con {
+  display: flex;
+}
+.quantity-button {
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.quantity {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+.cart-button {
+  background-color: #3b82f6;
+  outline: none;
+  padding: 5px;
+  border: 0px;
+  color: #ffffff;
+}
+.similar-product-con {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.failure-image {
+  width: 50%;
+}
+.products-details-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .similar-product-con {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .top-container {
+    flex-direction: row;
+  }
+  .image-detail {
+    margin-right: 50px;
+  }
+  .des-cont {
+    width: 40%;
+  }
+  .description {
+    font-size: 25px;
+    color: #cbced2;
+  }
+  .image-detail {
+    width: 40%;
+  }
+}

@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.list {
+  margin-top: 20px;
+  width: 150px;
+  padding-left: 20px;
+}
+.icon-similar {
+  width: 100%;
+  border-radius: 10px;
+}
+.title {
+  font-size: 15px;
+  margin-top: 0px;
+}
+.price-rating-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .list {
+    margin-right: 20px;
+  }
+}
